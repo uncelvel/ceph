@@ -1,0 +1,6 @@
+name,ip_public,ip_cluster,f_admin,f_mon,f_mds,f_rgw,f_osd,disk_journal,disk_osd,f_ntpd,OS
+admin,172.16.0.135/20,10.0.0.135/24,1,0,0,0,0,0,0,1,CentOS7
+node1,172.16.0.136/20,10.0.0.136/24,0,1,0,1,1,sdb,sdc_sdd,1,CentOS7
+node2,172.16.0.137/20,10.0.0.137/24,0,1,1,0,1,sdb,sdc_sdd,0,CentOS7
+node3,172.16.0.138/20,10.0.0.138/24,0,1,0,1,1,sdb,sdc_sdd,0,CentOS7
+client,172.16.0.139/20,10.0.0.139/24,0,0,0,0,0,0,0,0,CentOS7

@@ -1,0 +1,15 @@
+Host admin
+	Hostname admin
+	User cephuser
+Host node1
+	Hostname node1
+	User cephuser
+Host node2
+	Hostname node2
+	User cephuser
+Host node3
+	Hostname node3
+	User cephuser
+Host client
+	Hostname client
+	User cephuser
