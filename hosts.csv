@@ -1,4 +1,4 @@
 name,ip_public,ip_cluster,f_admin,f_mon,f_mds,f_rgw,f_osd,disk_journal,disk_osd,f_ntpd,OS
-node1,172.16.0.141/20,10.0.0.141/24,1,1,0,1,1,sdb,sdc_sdd_sde_sdf,1,CentOS7
-node2,172.16.0.142/20,10.0.0.142/24,0,1,1,0,1,sdb,sdc_sdd_sde_sdf,1,CentOS7
-node3,172.16.0.143/20,10.0.0.143/24,0,1,1,1,1,sdb,sdc_sdd_sde_sdf,0,CentOS7
+ceph1,192.168.1.141/24,10.0.0.141/24,1,1,0,1,1,sdb,sdc_sdd_sde_sdf,1,CentOS7
+ceph2,192.168.1.142/24,10.0.0.142/24,0,1,1,0,1,sdb,sdc_sdd_sde_sdf,1,CentOS7
+ceph3,192.168.1.143/24,10.0.0.143/24,0,1,1,1,1,sdb,sdc_sdd_sde_sdf,0,CentOS7
