@@ -138,6 +138,7 @@ readfile(){
 	echo "${green} Copy SSH config file ${reset}" && sleep 2s
 	mkdir -p ~/.ssh/
 	cp "$DIR"/conf/sshconfig ~/.ssh/config
+	cp "$DIR"/conf/hosts /etc/hosts
 	chmod 440 ~/.ssh/config
 	rm -rf "$INPUT2"
 
